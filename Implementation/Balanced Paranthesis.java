@@ -1,3 +1,4 @@
+package Implementation;
 import java.util.Stack;
 
 class Solution {
@@ -7,6 +8,9 @@ class Solution {
             if(ch == '(' || ch == '{' || ch == '['){
                 st.push(ch);
             }else{
+                if(st.isEmpty()){
+                    return false;
+                }
                 if(ch == ')' && st.peek() != '('){
                     return false;
                 }

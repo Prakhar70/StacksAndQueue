@@ -1,3 +1,4 @@
+package Implementation;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -11,7 +12,7 @@ class MyStack {
         q2 = new LinkedList<>();// will always be empty
     }
     
-    public void push(int x) {
+    public void push(int x) {//O(n)
         q2.add(x);
         while(!q1.isEmpty()){
             q2.add(q1.remove());
@@ -21,18 +22,18 @@ class MyStack {
         q2=temp;
     }
     
-    public int pop() {
+    public int pop() {//O(1)
         if(q1.isEmpty()){
             return -1;
         }
         return q1.remove();
     }
     
-    public int top() {
+    public int top() {//O(1)
         return q1.peek();
     }
     
-    public boolean empty() {
+    public boolean empty() {//O(1)
         return q1.isEmpty();
     }
 }
