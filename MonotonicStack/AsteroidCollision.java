@@ -2,7 +2,8 @@ package MonotonicStack;
 import java.util.Stack;
 
 public class AsteroidCollision {
-    public int[] asteroidCollision(int[] asteroids) {
+    public int[] asteroidCollision(int[] asteroids) //O(N)
+     {
         Stack<Integer> st = new Stack<>();
         
         for(int ele:asteroids){
