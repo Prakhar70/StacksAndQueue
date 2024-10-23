@@ -19,12 +19,12 @@
 
 # FAQs
 
-14. Implement Min Stack (MinStack.java) 
-15. Sliding Window Maximum (SlidingWindowMax.java)
-16. Trapping Rainwater (TrappingRainwater.java)
-17. Largest rectangle in a histogram (LargestRectangleArea.java)
-18. Maximum Rectangles (MaxRectangle.java)
-19. Stock span problem (StockSpan.java)
-20. Celebrity Problem (Celebrity.java)
-22. LRU Cache (LRUCache.java)
+14. Implement Min Stack (MinStack.java) Done
+15. Sliding Window Maximum (SlidingWindowMax.java) Done
+16. Trapping Rainwater (TrappingRainwater.java) Done
+17. Largest rectangle in a histogram (LargestRectangleArea.java) Done
+18. Maximum Rectangles (MaxRectangle.java) Done
+19. Stock span problem (StockSpan.java) Done
+20. Celebrity Problem (Celebrity.java) Done
+22. LRU Cache (LRUCache.java) Done
 23. LFU Cache (LFUCache.java)
